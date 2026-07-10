@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gabriel Soto · Desarrollador Web &amp; SysAdmin</title>
+<meta name="description" content="Portafolio de Gabriel Soto: desarrollo web, administración de sistemas, plataformas educativas Moodle y ciencia de datos.">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ================= NAV ================= -->
+<header class="nav">
+  <nav class="nav-inner">
+    <a href="#inicio" class="brand" data-close-menu>
+      <span class="brand-logo" id="nav-logo">GS</span>
+      <span class="brand-text">
+        <b id="nav-nombre">Gabriel Soto</b>
+        <span id="nav-subtitulo">DEV · SYSADMIN</span>
+      </span>
+    </a>
+    <div class="nav-links" id="nav-links"><!-- generado por main.js --></div>
+    <div class="nav-actions">
+      <button id="btn-tema" class="icon-btn" title="Cambiar tema" aria-label="Cambiar tema">
+        <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"></path></svg>
+        <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"></path></svg>
+      </button>
+      <a href="#contacto" class="nav-cta">Contáctame</a>
+      <button id="btn-menu" class="icon-btn menu-btn" aria-label="Abrir menú">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"></path></svg>
+      </button>
+    </div>
+  </nav>
+  <div class="mobile-menu" id="mobile-menu"><!-- generado por main.js --></div>
+</header>
+
+<!-- ================= HERO ================= -->
+<section id="inicio" class="hero">
+  <div class="hero-bg">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="grid-bg"></div>
+  </div>
+  <div class="container hero-inner">
+    <div class="hero-text">
+      <div class="badge-disponible"><span class="dot"></span><span id="hero-badge">Disponible para proyectos</span></div>
+      <h1>Hola, soy<br><span class="gradient-text" id="hero-nombre">Gabriel Soto</span></h1>
+      <div class="typing-line"><span class="typing-gt">&gt;</span><span id="typed"></span><span class="cursor"></span></div>
+      <p class="hero-desc" id="hero-desc"><!-- generado por main.js --></p>
+      <div class="hero-btns">
+        <a href="#portafolio" class="btn btn-primary">Ver proyectos
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
+        </a>
+        <a href="#contacto" class="btn btn-ghost">Hablemos</a>
+      </div>
+      <div class="stats" id="stats"><!-- generado por main.js --></div>
+    </div>
+    <div class="hero-photo-wrap">
+      <div class="hero-photo-float">
+        <div class="photo-glow"></div>
+        <div class="photo-frame"><img id="hero-foto" src="assets/foto-gabriel.png" alt="Foto de Gabriel Soto"></div>
+        <div class="float-badge float-badge-left">
+          <span class="mini-icon"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 18l6-6-6-6M8 6l-6 6 6 6"></path></svg></span>
+          <span id="badge-foto-1">Full-Stack</span>
+        </div>
+        <div class="float-badge float-badge-right">
+          <span class="mini-icon"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="8" rx="2"></rect><rect x="2" y="14" width="20" height="6" rx="2"></rect><path d="M6 8h.01M6 17h.01"></path></svg></span>
+          <span id="badge-foto-2">SysAdmin</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container stack-row-wrap">
+    <div class="stack-row" id="stack-row"><!-- generado por main.js --></div>
+  </div>
+</section>
+
+<!-- ================= SOBRE MÍ ================= -->
+<section id="sobre" class="section">
+  <div class="container two-col">
+    <div class="reveal">
+      <div class="kicker">// Sobre mí</div>
+      <h2 id="sobre-titulo">Tecnología que conecta el aula con la nube</h2>
+      <div id="sobre-parrafos"><!-- generado por main.js --></div>
+      <div class="chips" id="sobre-chips"><!-- generado por main.js --></div>
+    </div>
+    <div class="reveal about-grid">
+      <div class="about-card-accent">
+        <div class="about-card-title" id="enfoque-titulo">Enfoque</div>
+        <div class="about-card-desc" id="enfoque-desc"></div>
+      </div>
+      <div class="about-mini" id="about-mini-1"><div class="about-mini-title"></div><div class="about-mini-sub"></div></div>
+      <div class="about-mini" id="about-mini-2"><div class="about-mini-title"></div><div class="about-mini-sub"></div></div>
+      <div class="about-wide">
+        <span class="icon-box"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M6 12l6 3 6-3-6-3-6 3zM6 12v5c0 1 2.7 2 6 2s6-1 6-2v-5"></path></svg></span>
+        <div><div class="about-wide-title" id="about-wide-titulo"></div><div class="about-wide-sub" id="about-wide-sub"></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SERVICIOS ================= -->
+<section id="servicios" class="section section-alt">
+  <div class="container">
+    <div class="section-head center reveal">
+      <div class="kicker">// Servicios</div>
+      <h2>Lo que puedo hacer por ti</h2>
+      <p class="section-sub">De la idea al despliegue: desarrollo, infraestructura, educación digital y datos.</p>
+    </div>
+    <div class="cards-grid reveal" id="grid-servicios"><!-- generado por main.js --></div>
+  </div>
+</section>
+
+<!-- ================= PORTAFOLIO ================= -->
+<section id="portafolio" class="section">
+  <div class="container">
+    <div class="section-head split reveal">
+      <div>
+        <div class="kicker">// Portafolio</div>
+        <h2>Proyectos destacados</h2>
+      </div>
+      <div class="filters" id="filtros"><!-- generado por main.js --></div>
+    </div>
+    <div class="projects-grid" id="grid-proyectos"><!-- generado por main.js --></div>
+  </div>
+</section>
+
+<!-- ================= HABILIDADES ================= -->
+<section id="habilidades" class="section section-alt">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="kicker">// Stack técnico</div>
+      <h2>Habilidades &amp; herramientas</h2>
+    </div>
+    <div class="skills-grid reveal" id="grid-habilidades"><!-- generado por main.js --></div>
+  </div>
+</section>
+
+<!-- ================= EXPERIENCIA ================= -->
+<section id="experiencia" class="section">
+  <div class="container narrow">
+    <div class="section-head reveal">
+      <div class="kicker">// Trayectoria</div>
+      <h2>Experiencia profesional</h2>
+    </div>
+    <div class="timeline" id="timeline"><!-- generado por main.js --></div>
+  </div>
+</section>
+
+<!-- ================= FORMACIÓN ================= -->
+<section id="formacion" class="section section-alt">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="kicker">// Formación</div>
+      <h2>Formación &amp; certificaciones</h2>
+    </div>
+    <div class="degrees-grid" id="grid-titulos"><!-- generado por main.js --></div>
+    <div class="certs-grid reveal" id="grid-certs"><!-- generado por main.js --></div>
+  </div>
+</section>
+
+<!-- ================= PUBLICACIONES ================= -->
+<section id="publicaciones" class="section">
+  <div class="container medium">
+    <div class="section-head reveal">
+      <div class="kicker">// Investigación</div>
+      <h2>Publicaciones científicas</h2>
+    </div>
+    <div id="lista-publicaciones"><!-- generado por main.js --></div>
+  </div>
+</section>
+
+<!-- ================= CONTACTO ================= -->
+<section id="contacto" class="section section-alt">
+  <div class="container contact-wrap">
+    <div class="reveal contact-info">
+      <div class="kicker">// Contacto</div>
+      <h2>¿Tienes un proyecto en mente?</h2>
+      <p class="section-sub">Escríbeme y hablemos. El formulario abre directamente una conversación en WhatsApp con tu mensaje listo para enviar.</p>
+      <div class="contact-cards" id="contact-cards"><!-- generado por main.js --></div>
+    </div>
+    <form class="reveal contact-form" id="form-whatsapp">
+      <label for="f-nombre">Nombre</label>
+      <input id="f-nombre" placeholder="Tu nombre" autocomplete="name">
+      <label for="f-asunto">Asunto</label>
+      <input id="f-asunto" placeholder="¿En qué puedo ayudarte?">
+      <label for="f-mensaje">Mensaje</label>
+      <textarea id="f-mensaje" rows="4" placeholder="Cuéntame sobre tu proyecto…"></textarea>
+      <button type="submit" class="btn-whatsapp">
+        <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15l-1.3 4.8 4.9-1.3A10 10 0 1 0 12 2zm5.5 14.2c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .1-1.7-.1-.4-.1-.9-.3-1.6-.6-2.8-1.2-4.6-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.8s.7-2 .9-2.2c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .5l-.4.5c-.2.2-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.2.1.4.1.5-.1l.7-.8c.2-.2.3-.2.6-.1l1.9.9c.3.1.5.2.5.4.1.2.1.9-.1 1.5z"></path></svg>
+        Enviar por WhatsApp
+      </button>
+      <p class="form-note">Se abrirá WhatsApp con tu mensaje listo para enviar.</p>
+    </form>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="brand">
+      <span class="brand-logo small" id="footer-logo">GS</span>
+      <div><b id="footer-nombre">Gabriel Soto</b><div class="footer-sub" id="footer-sub">Desarrollador Web · Administrador de Sistemas</div></div>
+    </div>
+    <div class="footer-copy">© <span id="anio"></span> · Hecho en Ecuador 🇪🇨</div>
+  </div>
+</footer>
+
+<script src="data.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
