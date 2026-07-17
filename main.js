@@ -30,7 +30,7 @@
   /* ---------- Tema claro / oscuro ---------- */
   let tema;
   try { tema = localStorage.getItem('gs-theme'); } catch (e) {}
-  tema = tema || D.config.temaInicial || 'light';
+  tema = tema || D.config.temaInicial || 'dark';
   document.documentElement.dataset.theme = tema;
   $('#btn-tema').addEventListener('click', () => {
     tema = tema === 'dark' ? 'light' : 'dark';
