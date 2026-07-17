@@ -3,6 +3,15 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<script>
+  /* Fija el tema antes de pintar la página para evitar el "flash" de tema claro.
+     Debe coincidir con D.config.temaInicial en data.js. */
+  (function () {
+    var t;
+    try { t = localStorage.getItem('gs-theme'); } catch (e) {}
+    document.documentElement.dataset.theme = t || 'dark';
+  })();
+</script>
 <title>Gabriel Soto · Desarrollador Web &amp; SysAdmin</title>
 <meta name="description" content="Portafolio de Gabriel Soto: desarrollo web, administración de sistemas, plataformas educativas Moodle y ciencia de datos.">
 <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">

@@ -28,10 +28,9 @@
   const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
   /* ---------- Tema claro / oscuro ---------- */
-  let tema;
-  try { tema = localStorage.getItem('gs-theme'); } catch (e) {}
-  tema = tema || D.config.temaInicial || 'dark';
-  document.documentElement.dataset.theme = tema;
+  /* El tema inicial ya se fija en el <script> inline del <head> de index.html
+     (evita el flash de tema claro). Acá solo sincronizamos y manejamos el toggle. */
+  let tema = document.documentElement.dataset.theme || D.config.temaInicial || 'dark';
   $('#btn-tema').addEventListener('click', () => {
     tema = tema === 'dark' ? 'light' : 'dark';
     document.documentElement.dataset.theme = tema;

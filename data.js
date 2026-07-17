@@ -7,7 +7,7 @@
 const DATOS = {
   // ---------- CONFIGURACIÓN GENERAL ----------
   config: {
-    temaInicial: "light", // 'light' o 'dark'
+    temaInicial: "dark", // 'light' o 'dark'
     whatsapp: "593998463093", // número con código de país, sin '+'
   },
 
